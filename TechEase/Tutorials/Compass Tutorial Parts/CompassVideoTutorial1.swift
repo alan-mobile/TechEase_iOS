@@ -21,6 +21,14 @@ struct CompassVideoTutorial1: View {
             
             VStack {
                 
+                // Arica: The video tutorial heading.
+                Text("How to use the Compass app")
+                    .padding(.top, 30)
+                    .font(.title)
+                    .foregroundColor(Color("DarkBlue"))
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
+                
                 // Arica: Instructional text.
                 Text("Tap the video below to start watching a tutorial about how to use the Compass app. To exit full-screen mode, tap the video and then tap the \"X\" button in the top left corner.")
                     .font(.title3)
